@@ -1,0 +1,92 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3)
+}
+
+
+/* 앞에 점 나오는 경우 css 이렇게 */
+.nav_list li {
+    list-style: none
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link {
+    position: relative;
+    color: #2e363e;
+}
+
+
+
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(-5px) rotateY(360deg)
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+.nav_notification {
+    position: absolute;
+    left: 16px;
+    bottom: 18px;
+    animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+
+
+.nav_notification2 {
+    background-color: tomato;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+@keyframes appearBtnAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.nav_btn {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appearBtnAnimation 1s ease-in-out forwards;
+}
+
+.nav_btn:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.nav_btn:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.nav_btn:last-child {
+    animation-delay: 0.8s;
+}

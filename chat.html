@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Kokoa clone</title>
+</head>
+
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header_column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header_column">
+            <h1 class="alt-header_title">멜룡</h1>
+        </div>
+        <div class="alt-header_column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat_timestamp">
+            Sunday, June 11, 2023
+        </div>
+
+        <div class="message-row">
+            <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMzFfMjg5%2FMDAxNjM1Njg4Mzg5MTI2.psPUks-DPqHaGTWG9Q3-7YQVtSG_unAltC8lKtaNyScg.e79EFVKq17ayDDvrn-x2yZICxRh491xNESjoNMy26Xcg.JPEG.dnekal92%2FIMG_9388.JPG&type=a340">
+            <div class="message-row_content">
+                <span class="message_author">멜룡</span>
+                <div class="message_info">
+                    <span class="message_bubble">애용</span>
+                    <span class="message_time">09:22</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row_content">
+                <div class="message_info">
+                    <span class="message_bubble">왜용</span>
+                    <span class="message_time">10:15</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply_column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply_column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>너의 화면이 너무 크자냐 ! ㅠㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/440cb919d2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

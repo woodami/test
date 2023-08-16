@@ -1,0 +1,22 @@
+.badge {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.badge2 {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* .은 class , id(#)와 달리 class는 범용적인? 스타일 지정할때 */

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--link: 치면 완성되나 href 영역에 css 폴더 다시 명명해줘야함-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More</title>
+</head>
+
+
+
+<body>
+    <!--css칠때 class 처리하는듯?-->
+    <div class="status-bar">
+
+
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <!--주석달기~ 여기는 와이파이아이콘-->
+
+
+
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+
+
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <!--주석달기~ fa-lg 로 사이즈를 키움-->
+            <i class="fa-solid fa-bolt"></i>
+            <!--주석달기~ 여기는 배터리아이콘-->
+            <!--주석달기~ 여기는 번개아이콘-->
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header_column">
+            <a href="more.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header_column">
+            <h1 class="alt-header_title">Setting</h1>
+        </div>
+        <div class="alt-header_column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li class="settings_setting">
+                <div class="settings_setting-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+                <div class="settings_setting-column"></div>
+            </li>
+            <li class="settings_setting">
+                <div class="settings_setting-column">
+                    <i class="fas fa-flask"></i>
+                    <span>Kokoa Lab</span>
+                </div>
+                <div class="settings_setting-column"></div>
+            </li>
+            <li class="settings_setting">
+                <div class="settings_setting-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings_setting-column"></div>
+            </li>
+        </ul>
+    </main>
+
+
+
+    <!--nav>ui>li*4>a 엔터하면 아래 나옴-->
+    <!--컨트롤+D 같은 영역 같이 선택 -->
+    <nav class="nav">
+        <ui class="nav_list">
+            <li class="nav_btn"><a class="nav_link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav_btn"><a class="nav_link" href="chat.html">
+                    <span class="nav_notification badge">1</span>
+                    <i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav_btn"><a class="nav_link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav_btn"><a class="nav_link" href="more.html">
+                    <span class="nav_notification2"></span>
+                    <i class="fas fa-ellipsis fa-2x"></i></a></li>
+        </ui>
+    </nav>
+
+
+    <script src="https://kit.fontawesome.com/440cb919d2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

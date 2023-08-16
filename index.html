@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--link: 치면 완성되나 href 영역에 css 폴더 다시 명명해줘야함-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoatalk</title>
+</head>
+
+
+
+<body>
+    <!--css칠때 class 처리하는듯?-->
+    <div class="status-bar">
+
+
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <!--주석달기~ 여기는 와이파이아이콘-->
+
+
+
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+
+
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <!--주석달기~ fa-lg 로 사이즈를 키움-->
+            <i class="fa-solid fa-bolt"></i>
+            <!--주석달기~ 여기는 배터리아이콘-->
+            <!--주석달기~ 여기는 번개아이콘-->
+        </div>
+
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title"> Welcome ~ </h1>
+        <p class="welcome-header__text">가입 부탁 ㅎ </p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="email or phone number" />
+        <input type="password" placeholder="password" />
+        <input type="submit" value="log-in" />
+        <a href="#"> 코코아톡 계정 혹은 비번 찾기 </a>
+
+    </form>
+
+    <div id="no-mobile">
+        <span>너의 화면이 너무 크자냐 ! ㅠㅠ</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/440cb919d2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
